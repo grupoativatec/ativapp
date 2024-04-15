@@ -1,0 +1,15 @@
+@media (min-width: 720px) {
+        #container {
+            width: 850px;
+            justify-content: space-between;
+        }  
+
+            #container .banner {
+                display: flex;
+            }
+
+            #container .box-login {
+                width: 340px;
+                border-radius: 10px 10px 10px 0px;
+            }
+}

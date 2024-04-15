@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logout-btn {
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .logout-btn:hover {
+            background-color: #c82333;
+        }
+        .sair-link {
+            top: -0px; /* Distância do topo */
+            left: 10px; /* Distância da esquerda */
+            display: flex;
+            align-items: center;
+            white-space: nowrap; /* Impede a quebra automática do texto */
+        }
+        body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+.text-over-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+.span-voltar {
+    margin-left: 5px; /* Adicione espaço lateral à esquerda do texto */
+    margin-right: 5px; /* Adicione espaço lateral à direita do texto */
+    white-space: nowrap;
+}
+span {
+    font-size: 1.5em;
+    color: crimson;
+    margin: 0;
+    text-align: center; /* Centraliza horizontalmente o texto */
+}
+h2 {
+    font-size: 1.5em;
+    color: crimson;
+    margin: 0;
+    text-align: left; /* Centraliza horizontalmente o texto */
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.3em;
+    color: crimson;
+    margin: 0;
+}
+.btn-primary {
+    border-color: darkred !important; /* Muda a cor da borda, se necessário */
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: red !important; /* Mantém a cor de fundo ao passar o mouse e focar */
+    border-color: darkred !important; /* Mantém a cor da borda ao passar o mouse e focar */
+    box-shadow: none !important; /* Remove o sombreado que pode aparecer */
+}
+.logout-img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    background: none;
+    
+}
+
+.logout-img:hover {
+    background-color: crimson;
+    border-radius: 67%; /* Arredonda as bordas do background de hover */
+}
+
+.logout-img img {
+display: block;
+/* Ajuste essas propriedades se necessário para manter o tamanho original da imagem */
+}
